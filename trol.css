@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    font-family: 'Mooli', sans-serif;
+}
+
+h1{
+    margin-bottom: 70px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.columna {
+    background-color: rgb(238, 238, 238);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px;
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.columna:hover{
+    transform: scale(1.1)  translateY(-5px);
+    transition: all .3s;
+}
+
+.precio {
+    color: salmon;
+    font-size: 25px;
+}
+
+.btn-precio {
+    display: block;
+    background: salmon;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.si{
+    display: block;
+    background: salmon;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 50px;
+}
+
+.btn-precio:hover {
+    background: rgb(250, 93, 75);
+}
+
+@media (max-width: 1000px) {
+    .columna {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .columna {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
